@@ -37,11 +37,17 @@ var Backend = require('i18next-xhr-backend');
 exIntl.use(Backend);
 ```
 
+## Test
+
+```sh
+$ npm run test
+```
+
 ## License
 
-MIT © [thien]()
+MIT © [thien](mailto:thien@quoine.com)
 
-[npm-image]: https://badge.fury.io/js/exchange-intl.svg
+<!-- [npm-image]: https://badge.fury.io/js/exchange-intl.svg
 [npm-url]: https://npmjs.org/package/exchange-intl
 [travis-image]: https://travis-ci.org/QuoineFinancial/exchange-intl.svg?branch=master
 [travis-url]: https://travis-ci.org/QuoineFinancial/exchange-intl
@@ -49,3 +55,4 @@ MIT © [thien]()
 [daviddm-url]: https://david-dm.org/QuoineFinancial/exchange-intl
 [coveralls-image]: https://coveralls.io/repos/QuoineFinancial/exchange-intl/badge.svg
 [coveralls-url]: https://coveralls.io/r/QuoineFinancial/exchange-intl
+ -->

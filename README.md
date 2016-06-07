@@ -27,7 +27,7 @@ exIntl.t('sign-in:title');
 
 ### Advance
 
-This module uses [i18next](http://i18next.com). The returned object is i18next's instance. Therefore you can use all [i18next's API](http://i18next.com/docs/api/) with this object.
+This module uses [i18next](i18next.com). The returned object is i18next's instance. Therefore you can use all [i18next's API](i18next.com/docs/api/) with this object.
 
 ```js
 // example: use external plugin

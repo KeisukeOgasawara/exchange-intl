@@ -13,6 +13,8 @@ $ npm install --save QuoineFinancial/exchange-intl
 
 ## Usage
 
+### Basic
+
 ```js
 var exIntl = require('exchange-intl');
 
@@ -22,6 +24,19 @@ exIntl.changeLanguage('ja');
 // translate
 exIntl.t('sign-in:title');
 ```
+
+### Advance
+
+This module uses [i18next](http://i18next.com). The returned object is i18next's instance. Therefore you can use all [i18next's API](http://i18next.com/docs/api/) with this object.
+
+```js
+// example: use external plugin
+var exIntl = require('exchange-intl');
+var Backend = require('i18next-xhr-backend');
+
+exIntl.use(Backend);
+```
+
 ## License
 
 MIT © [thien]()

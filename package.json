@@ -1,6 +1,6 @@
 {
-  "name": "exchange-intl",
-  "version": "0.0.1",
+  "name": "@quoine/exchange-intl",
+  "version": "0.1.0",
   "description": "i18n support for QUOINE Exchange web app",
   "homepage": "https://github.com/QuoineFinancial/exchange-intl",
   "author": {

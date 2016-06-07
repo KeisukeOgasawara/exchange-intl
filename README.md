@@ -3,21 +3,26 @@
 
 ## Installation
 
+This module is not available in npm. Install from QuoineFinancial github:
+
 ```sh
-$ npm install --save exchange-intl
+$ npm install --save QuoineFinancial/exchange-intl
 ```
 
 ## Usage
 
 ```js
-var exchangeIntl = require('exchange-intl');
+var exIntl = require('exchange-intl');
 
-exchangeIntl('Rainbow');
+// change language (default is en)
+exIntl.changeLanguage('ja');
+
+// translate
+exIntl.t('sign-in:title');
 ```
 ## License
 
 MIT © [thien]()
-
 
 [npm-image]: https://badge.fury.io/js/exchange-intl.svg
 [npm-url]: https://npmjs.org/package/exchange-intl

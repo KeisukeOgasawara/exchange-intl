@@ -7,12 +7,19 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports['default'] = {
   'test': {
-    'basic': 'japanese'
+    'basic': 'japanese',
+    'interpolation': 'quoine-{{name}}'
+  },
+  'common': {
+    'spot': '現物取引',
+    'margin': '信用取引'
   },
   'sign-in': {
     'title': 'サインイン',
+    'use-all-features': 'Sign in to use all features of QUOINE Exchange',
     'email': 'Eメール',
-    'password': 'パスワード'
+    'password': 'パスワード',
+    'action': 'Sign in'
   }
 };
 module.exports = exports['default'];

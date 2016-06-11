@@ -10,6 +10,10 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'common': {
+    'spot': 'spot',
+    'margin': 'margin'
+  },
   'sign-in': {
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',

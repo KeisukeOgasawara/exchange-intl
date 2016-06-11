@@ -45,7 +45,8 @@
   "repository": "QuoineFinancial/exchange-intl",
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "gulp",
+    "github": "npm run prepublish && git add -A && git commit -m 'build dist' && git push"
   },
   "license": "MIT",
   "dependencies": {

@@ -26,5 +26,7 @@ _i18next2['default'].init({
   }
 });
 
+_i18next2['default'].changeLanguage(localStorage.getItem('intl-lang'));
+
 exports['default'] = _i18next2['default'];
 module.exports = exports['default'];

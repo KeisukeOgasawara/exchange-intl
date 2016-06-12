@@ -10,6 +10,11 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'menu': {
+    'dashboard': 'dashboard',
+    'account': 'accounts',
+    'setting': 'setting'
+  },
   'common': {
     'spot': 'spot',
     'margin': 'margin'

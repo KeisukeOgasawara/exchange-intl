@@ -10,6 +10,11 @@ exports['default'] = {
     'basic': 'japanese',
     'interpolation': 'quoine-{{name}}'
   },
+  'menu': {
+    'dashboard': 'ビットコイン売買',
+    'account': 'マイページ',
+    'setting': '信用設定'
+  },
   'common': {
     'spot': '現物取引',
     'margin': '信用取引'

@@ -12,8 +12,13 @@ exports['default'] = {
   },
   'menu': {
     'dashboard': 'ビットコイン売買',
-    'account': 'マイページ',
+    'accounts': 'マイページ',
     'setting': '信用設定'
+  },
+  'product': {
+    'low': '安値',
+    'high': '高値',
+    'volume': '24時間取扱高'
   },
   'common': {
     'spot': '現物取引',

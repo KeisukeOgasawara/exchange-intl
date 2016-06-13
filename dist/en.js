@@ -12,8 +12,13 @@ exports['default'] = {
   },
   'menu': {
     'dashboard': 'dashboard',
-    'account': 'accounts',
+    'accounts': 'accounts',
     'setting': 'setting'
+  },
+  'product': {
+    'low': 'Low',
+    'high': 'High',
+    'volume': '24h Volume'
   },
   'common': {
     'spot': 'spot',

@@ -20,6 +20,14 @@ exports['default'] = {
     'high': 'High',
     'volume': '24h Volume'
   },
+  'account': {
+    'pnl': 'P&L',
+    'balance': 'Balance',
+    'equity': 'Equity',
+    'margin-used': 'Margin Used',
+    'margin-available': 'Margin Available',
+    'margin-coverage': 'Margin Coverage'
+  },
   'common': {
     'spot': 'spot',
     'margin': 'margin'

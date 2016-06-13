@@ -20,6 +20,14 @@ exports['default'] = {
     'high': '高値',
     'volume': '24時間取扱高'
   },
+  'account': {
+    'pnl': '損益',
+    'balance': '現金残高',
+    'equity': '評価残高',
+    'margin-used': '使用中証拠金額',
+    'margin-available': '信用取引余力',
+    'margin-coverage': '証拠金維持率'
+  },
   'common': {
     'spot': '現物取引',
     'margin': '信用取引'

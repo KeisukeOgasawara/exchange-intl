@@ -11,9 +11,9 @@ exports['default'] = {
     'interpolation': 'quoine-{{name}}'
   },
   'menu': {
-    'dashboard': 'dashboard',
-    'accounts': 'accounts',
-    'setting': 'setting'
+    'dashboard': 'Dashboard',
+    'accounts': 'Accounts',
+    'setting': 'Setting'
   },
   'product': {
     'low': 'Low',
@@ -29,8 +29,8 @@ exports['default'] = {
     'margin-coverage': 'Margin Coverage'
   },
   'common': {
-    'spot': 'spot',
-    'margin': 'margin'
+    'spot': 'Spot',
+    'margin': 'Margin'
   },
   'sign-in': {
     'title': 'Sign in',

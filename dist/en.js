@@ -23,6 +23,9 @@ exports['default'] = {
   'account': {
     'pnl': 'P&L',
     'balance': 'Balance',
+    'balance-total': 'Total Balance',
+    'balance-quote': 'Fiat Balance',
+    'balance-base': 'Crypto Balance',
     'equity': 'Equity',
     'margin-used': 'Margin Used',
     'margin-available': 'Margin Available',

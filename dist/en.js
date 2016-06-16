@@ -10,6 +10,9 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'book': {
+    'group': 'group orders'
+  },
   'order': {
     'limit': 'Limit',
     'market': 'Market',

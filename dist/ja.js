@@ -10,6 +10,9 @@ exports['default'] = {
     'basic': 'japanese',
     'interpolation': 'quoine-{{name}}'
   },
+  'book': {
+    'group': 'group orders'
+  },
   'order': {
     'limit': '指値注文',
     'market': '成行注文',

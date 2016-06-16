@@ -11,7 +11,7 @@ exports['default'] = {
     'interpolation': 'quoine-{{name}}'
   },
   'book': {
-    'group': 'group orders'
+    'group': 'group'
   },
   'order': {
     'limit': '指値注文',

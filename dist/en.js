@@ -53,7 +53,9 @@ exports['default'] = {
     'spot': 'Spot',
     'margin': 'Margin',
     'buy': 'Buy',
-    'sell': 'Sell'
+    'sell': 'Sell',
+    'buys': 'Buys',
+    'sells': 'Sells'
   },
   'sign-in': {
     'title': 'Sign in',

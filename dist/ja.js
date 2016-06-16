@@ -53,7 +53,9 @@ exports['default'] = {
     'spot': '現物取引',
     'margin': '信用取引',
     'buy': '買',
-    'sell': '売'
+    'sell': '売',
+    'buys': '買',
+    'sells': '売'
   },
   'sign-in': {
     'title': 'サインイン',

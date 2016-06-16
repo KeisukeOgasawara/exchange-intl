@@ -10,6 +10,24 @@ exports['default'] = {
     'basic': 'japanese',
     'interpolation': 'quoine-{{name}}'
   },
+  'order': {
+    'limit': '指値注文',
+    'market': '成行注文',
+    'stop': '逆指値注文',
+    'quantity': '注文数量',
+    'disclose-quantity': '開示注文数量',
+    'price': '注文価格',
+    'mode': 'Mode',
+    'one-direction': 'One Direction',
+    'two-direction': 'Two Direction',
+    'net-out': 'Net-Out',
+    'slippage': 'Slippage',
+    'leverage': 'Leverage',
+    'fee': '手数料',
+    'cost': '概算',
+    'margin': '信用倍率',
+    'interest': '金利（日歩）'
+  },
   'menu': {
     'dashboard': 'ビットコイン売買',
     'accounts': 'マイページ',
@@ -33,14 +51,16 @@ exports['default'] = {
   },
   'common': {
     'spot': '現物取引',
-    'margin': '信用取引'
+    'margin': '信用取引',
+    'buy': '買',
+    'sell': '売'
   },
   'sign-in': {
     'title': 'サインイン',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',
     'email': 'Eメール',
     'password': 'パスワード',
-    'action': 'Sign in'
+    'action': 'サインイン'
   }
 };
 module.exports = exports['default'];

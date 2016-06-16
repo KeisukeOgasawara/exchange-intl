@@ -10,6 +10,24 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'order': {
+    'limit': 'Limit',
+    'market': 'Market',
+    'stop': 'Stop',
+    'quantity': 'Quantity',
+    'disclose-quantity': 'Disclose Quantity',
+    'price': 'Price',
+    'mode': 'Mode',
+    'one-direction': 'One Direction',
+    'two-direction': 'Two Direction',
+    'net-out': 'Net-Out',
+    'slippage': 'Slippage',
+    'leverage': 'Leverage',
+    'fee': 'Fee',
+    'cost': 'Estimated Cost',
+    'margin': 'Margin',
+    'interest': 'Daily Interest'
+  },
   'menu': {
     'dashboard': 'Dashboard',
     'accounts': 'Accounts',
@@ -33,7 +51,9 @@ exports['default'] = {
   },
   'common': {
     'spot': 'Spot',
-    'margin': 'Margin'
+    'margin': 'Margin',
+    'buy': 'Buy',
+    'sell': 'Sell'
   },
   'sign-in': {
     'title': 'Sign in',

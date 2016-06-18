@@ -18,7 +18,7 @@ exports['default'] = {
     'market': 'Market',
     'stop': 'Stop',
     'quantity': 'Quantity',
-    'disclose-quantity': 'Disclose Quantity',
+    'disclose-quantity': 'Disclose Qty.',
     'price': 'Price',
     'mode': 'Mode',
     'one-direction': 'One Direction',

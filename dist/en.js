@@ -10,6 +10,12 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'history': {
+    'live-orders': 'Live Orders',
+    'all-orders': 'All Orders',
+    'positions': 'Positions',
+    'executions': 'Executions'
+  },
   'book': {
     'group': 'group'
   },

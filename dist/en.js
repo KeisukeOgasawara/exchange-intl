@@ -40,10 +40,19 @@ exports['default'] = {
     'fee': 'Fee',
     'cost': 'Estimated Cost',
     'margin': 'Margin',
-    'interest': 'Daily Interest'
+    'interest': 'Daily Interest',
+    'buy': 'Buy',
+    'sell': 'Sell',
+    'buys': 'Buys',
+    'sells': 'Sells'
   },
   'position': {
-    'close': 'close'
+    'close': 'close',
+    'short': 'Short',
+    'long': 'Long',
+    'shorts': 'Shorts',
+    'longs': 'Longs',
+    'all': 'All'
   },
   'menu': {
     'dashboard': 'Dashboard',
@@ -68,14 +77,7 @@ exports['default'] = {
   },
   'common': {
     'spot': 'Spot',
-    'margin': 'Margin',
-    'buy': 'Buy',
-    'sell': 'Sell',
-    'buys': 'Buys',
-    'sells': 'Sells',
-    'shorts': 'Shorts',
-    'longs': 'Longs',
-    'all': 'All'
+    'margin': 'Margin'
   },
   'sign-in': {
     'title': 'Sign in',

@@ -42,6 +42,9 @@ exports['default'] = {
     'margin': 'Margin',
     'interest': 'Daily Interest'
   },
+  'position': {
+    'close': 'close'
+  },
   'menu': {
     'dashboard': 'Dashboard',
     'accounts': 'Accounts',
@@ -71,7 +74,8 @@ exports['default'] = {
     'buys': 'Buys',
     'sells': 'Sells',
     'shorts': 'Shorts',
-    'longs': 'Longs'
+    'longs': 'Longs',
+    'all': 'All'
   },
   'sign-in': {
     'title': 'Sign in',

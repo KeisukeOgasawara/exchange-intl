@@ -10,6 +10,11 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'trade-overview': {
+    'position': 'Pos.',
+    'pnl': 'P&L',
+    'baseOpenPrice': 'Base Price'
+  },
   'history': {
     'live-orders': 'Live Orders',
     'all-orders': 'All Orders',
@@ -64,7 +69,9 @@ exports['default'] = {
     'buy': 'Buy',
     'sell': 'Sell',
     'buys': 'Buys',
-    'sells': 'Sells'
+    'sells': 'Sells',
+    'shorts': 'Shorts',
+    'longs': 'Longs'
   },
   'sign-in': {
     'title': 'Sign in',

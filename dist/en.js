@@ -49,7 +49,8 @@ exports['default'] = {
     'id': 'ID',
     'created-at': 'Created at',
     'edit-price': 'Edit price',
-    'edit-quantity': 'Edit qty.'
+    'edit-quantity': 'Edit qty.',
+    'cancel': 'Cancel'
   },
   'position': {
     'close': 'close',
@@ -59,7 +60,11 @@ exports['default'] = {
     'longs': 'Longs',
     'all': 'All',
     'id': 'ID',
-    'created-at': 'Created at'
+    'created-at': 'Created at',
+    'margin': 'Margin',
+    'total-interest': 'Total Interest',
+    'close-qty': 'Closed Qty.',
+    'close-pnl': 'Closed P&L'
   },
   'execution': {
     'id': 'ID',
@@ -89,7 +94,9 @@ exports['default'] = {
   'common': {
     'spot': 'Spot',
     'margin': 'Margin',
-    'load-more': 'Load'
+    'load-more': 'Load',
+    'cancel': 'Cancel',
+    'submit': 'Submit'
   },
   'sign-in': {
     'title': 'Sign in',

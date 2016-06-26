@@ -64,7 +64,9 @@ exports['default'] = {
     'margin': 'Margin',
     'total-interest': 'Total Interest',
     'close-qty': 'Closed Qty.',
-    'close-pnl': 'Closed P&L'
+    'close-pnl': 'Closed P&L',
+    'edit-takeProfit': 'Edit TP',
+    'edit-stopLoss': 'Edit SL'
   },
   'execution': {
     'id': 'ID',

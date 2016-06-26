@@ -45,7 +45,11 @@ exports['default'] = {
     'buy': 'Buy',
     'sell': 'Sell',
     'buys': 'Buys',
-    'sells': 'Sells'
+    'sells': 'Sells',
+    'id': 'ID',
+    'created-at': 'Created at',
+    'edit-price': 'Edit price',
+    'edit-quantity': 'Edit qty.'
   },
   'position': {
     'close': 'close',
@@ -53,7 +57,13 @@ exports['default'] = {
     'long': 'Long',
     'shorts': 'Shorts',
     'longs': 'Longs',
-    'all': 'All'
+    'all': 'All',
+    'id': 'ID',
+    'created-at': 'Created at'
+  },
+  'execution': {
+    'id': 'ID',
+    'created-at': 'Created at'
   },
   'menu': {
     'dashboard': 'Dashboard',
@@ -78,7 +88,8 @@ exports['default'] = {
   },
   'common': {
     'spot': 'Spot',
-    'margin': 'Margin'
+    'margin': 'Margin',
+    'load-more': 'Load'
   },
   'sign-in': {
     'title': 'Sign in',

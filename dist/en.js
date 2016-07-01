@@ -108,13 +108,13 @@ exports['default'] = {
     'action': 'Sign in'
   },
   'error': {
-    'order.quantity.bigger-than-min': 'Order quantity must bigger than 0.01',
-    'order.quantity.smaller-than-max': 'Order quantity must smaller than 100',
-    'order.price.limit-smaller-than-market-ask': 'Order buy limit price must smaller than market ask',
-    'order.price.stop-bigger-than-market-ask': 'Order buy stop price must bigger than market ask',
-    'order.price.limit-bigger-than-market-bid': 'Order buy limit price must bigger than market bid',
-    'order.price.stop-smaller-than-market-bid': 'Order buy stop price must smaller than market bid',
-    'order.price.bigger-than-min': 'Order price must bigger than 1'
+    'order-quantity-bigger-than-min': 'Order quantity must bigger than 0.01',
+    'order-quantity-smaller-than-max': 'Order quantity must smaller than 100',
+    'order-price-limit-smaller-than-market-ask': 'Order buy limit price must smaller than market ask',
+    'order-price-stop-bigger-than-market-ask': 'Order buy stop price must bigger than market ask',
+    'order-price-limit-bigger-than-market-bid': 'Order buy limit price must bigger than market bid',
+    'order-price-stop-smaller-than-market-bid': 'Order buy stop price must smaller than market bid',
+    'order-price-bigger-than-min': 'Order price must bigger than 1'
   }
 };
 module.exports = exports['default'];

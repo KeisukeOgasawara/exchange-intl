@@ -114,7 +114,9 @@ exports['default'] = {
     'order-price-stop-bigger-than-market-ask': 'Order buy stop price must bigger than market ask',
     'order-price-limit-bigger-than-market-bid': 'Order buy limit price must bigger than market bid',
     'order-price-stop-smaller-than-market-bid': 'Order buy stop price must smaller than market bid',
-    'order-price-bigger-than-min': 'Order price must bigger than 1'
+    'order-price-bigger-than-min': 'Order price must bigger than 1',
+    'order-direction-short-need-empty': 'You must have no short trade to place buy order',
+    'order-direction-long-need-empty': 'You must have no long trades to place sell order'
   }
 };
 module.exports = exports['default'];

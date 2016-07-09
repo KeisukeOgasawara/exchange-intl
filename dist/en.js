@@ -80,8 +80,14 @@ exports['default'] = {
     'total-interest': 'Total Interest'
   },
   'execution': {
+    // ===
     'created-at': 'Created at',
-    'id': 'ID'
+    'id': 'ID',
+    'price': 'Price',
+    'quantity': 'Quantity',
+    'product': 'Product',
+    'side': 'Side',
+    'target': 'Target'
   },
   'menu': {
     'accounts': 'Accounts',

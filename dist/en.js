@@ -26,6 +26,8 @@ exports['default'] = {
   },
   'order': {
     'avg-price': 'Average Price',
+    'margin': 'Margin',
+    'spot': 'Spot',
     'buy': 'Buy',
     'buys': 'Buys',
     'cancel': 'Cancel',
@@ -35,9 +37,7 @@ exports['default'] = {
     'edit-quantity': 'Edit qty.',
     'est-price': 'Est. Cost',
     'fee': 'Fee',
-    'id': 'ID',
     'interest': 'Daily Interest',
-    'leverage': 'Leverage',
     'limit': 'Limit',
     'margin': 'Margin',
     'market': 'Market',
@@ -46,12 +46,20 @@ exports['default'] = {
     'net-out': 'Net-Out',
     'one-direction': 'One Direction',
     'price': 'Price',
-    'quantity': 'Quantity',
     'sell': 'Sell',
     'sells': 'Sells',
     'slippage': 'Slippage',
     'stop': 'Stop',
-    'two-direction': 'Two Direction'
+    'two-direction': 'Two Direction',
+    // ===
+    'id': 'ID',
+    'product': 'Product',
+    'type': 'Type',
+    'side': 'Side',
+    'leverage': 'Leverage',
+    'open-price': 'Open Price',
+    'filled-qty': 'Filled Qty.',
+    'quantity': 'Quantity'
   },
   'position': {
     'all': 'All',

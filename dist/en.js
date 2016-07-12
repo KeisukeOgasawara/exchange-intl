@@ -22,7 +22,7 @@ exports['default'] = {
     'positions': 'Positions'
   },
   'book': {
-    'group': 'group'
+    'group': 'group orders'
   },
   'order': {
     'avg-price': 'Average Price',
@@ -125,7 +125,12 @@ exports['default'] = {
     'load-more': 'Load',
     'margin': 'Margin',
     'spot': 'Spot',
-    'submit': 'Submit'
+    'submit': 'Submit',
+    'dismiss': 'Dismiss',
+    'confirm': 'Confirm'
+  },
+  'confirmation': {
+    'skip': 'Skip this confirmation in the future. (You can turn this on again in Setting page)'
   },
   'sign-in': {
     'action': 'Sign in',

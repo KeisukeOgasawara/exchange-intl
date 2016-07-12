@@ -48,6 +48,9 @@ exports['default'] = {
     'slippage': 'Slippage',
     'two-direction': 'Two Direction',
     // ===
+    'cancelled': 'Cancelled',
+    'live': 'Live',
+    // ===
     'limit': 'Limit',
     'market_with_range': 'Range',
     'market': 'Market',
@@ -61,7 +64,8 @@ exports['default'] = {
     'leverage': 'Leverage',
     'open-price': 'Open Price',
     'filled-qty': 'Filled Qty.',
-    'quantity': 'Quantity'
+    'quantity': 'Quantity',
+    'status': 'Status'
   },
   'position': {
     'all': 'All',
@@ -130,7 +134,7 @@ exports['default'] = {
     'confirm': 'Confirm'
   },
   'confirmation': {
-    'skip': 'Skip this confirmation in the future. (You can turn this on again in Setting page)'
+    'skip': 'Skip this confirmation in the future. (You can change this in Setting page)'
   },
   'sign-in': {
     'action': 'Sign in',

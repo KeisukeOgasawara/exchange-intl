@@ -81,6 +81,7 @@ exports['default'] = {
     'close-pnl': 'Closed P&L',
     'close-price': 'Close Price',
     'close-qty': 'Closed Qty.',
+    'to-close-qty': 'Qty. to close',
     'created-at': 'Created at',
     'id': 'ID',
     'margin': 'Margin',

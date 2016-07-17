@@ -50,12 +50,15 @@ exports['default'] = {
     // ===
     'cancelled': 'Cancelled',
     'live': 'Live',
+    'filled': 'Filled',
     // ===
     'limit': 'Limit',
     'market_with_range': 'Range',
     'market': 'Market',
     'stop': 'Stop',
+    // ===
     'close': 'Close',
+    'new': 'New',
     // ===
     'id': 'ID',
     'product': 'Product',
@@ -63,9 +66,11 @@ exports['default'] = {
     'side': 'Side',
     'leverage': 'Leverage',
     'open-price': 'Open Price',
+    'avg-price': 'Avg. Price',
     'filled-qty': 'Filled Qty.',
     'quantity': 'Quantity',
-    'status': 'Status'
+    'status': 'Status',
+    'target': 'Target'
   },
   'position': {
     'all': 'All',
@@ -102,11 +107,13 @@ exports['default'] = {
     // ===
     'created-at': 'Created at',
     'id': 'ID',
+    'order-id': 'Order ID',
     'price': 'Price',
     'quantity': 'Quantity',
     'product': 'Product',
     'side': 'Side',
-    'target': 'Target'
+    'target': 'Target',
+    'pnl': 'P&L'
   },
   'menu': {
     'accounts': 'Accounts',

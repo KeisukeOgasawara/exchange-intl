@@ -101,7 +101,7 @@ exports['default'] = {
     'side': 'Side',
     'stop-loss': 'Stop Loss',
     'take-profit': 'Take Profit',
-    'total-interest': 'Total Swap'
+    'total-interest': 'Total Int.'
   },
   'execution': {
     // ===

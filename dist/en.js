@@ -145,10 +145,10 @@ exports['default'] = {
     'action': 'Sign in',
     'email': 'Email',
     'password': 'Password',
-    'code': 'Authentication code',
+    'code': 'Code',
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',
-    'need-code': '2-Factor Authentication is enabled. Please enter your code from Authy or SMS.',
+    'need-code': '2-Factor Authentication is enabled for your account. Please enter your authentication code below. You can get it from Authy app or via SMS.',
     'resend-sms': 'Resend code via SMS'
   },
   'error': {

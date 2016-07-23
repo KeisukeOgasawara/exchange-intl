@@ -71,9 +71,9 @@ exports['default'] = {
     'create-confirm': 'Order Confirmation',
     'create-finish-submitted': 'Order Submitted',
     'create-finish-filled': 'Order Filled',
-    'cancel-confirm': 'Order Cancellation',
+    'cancel-confirm': 'Order Cancel Confirmation',
     'cancel-finish': 'Order Cancelled',
-    'edit-confirm': 'Order Update',
+    'edit-confirm': 'Order Update Confirmation',
     'edit-finish': 'Order Updated'
   },
   'position': {
@@ -93,7 +93,7 @@ exports['default'] = {
     'open-pnl': 'Open P&L',
     'open-price': 'Open Price',
     'open-qty': 'Open Qty.',
-    'pnl': 'P&L',
+    'pnl': 'Est. P&L',
     'position': 'Position',
     'product': 'Product',
     'quantity': 'Quantity',
@@ -104,6 +104,12 @@ exports['default'] = {
     'take-profit': 'Take Profit',
     'to-close-qty': 'Qty. To Close',
     'total-interest': 'Total Int.'
+  },
+  'position-modal': {
+    'close-confirm': 'Position Close Confirmation',
+    'close-finish': 'Position Closed',
+    'edit-confirm': 'Position Update Confirmation',
+    'edit-finish': 'Position Updated'
   },
   'execution': {
     'created-at': 'Created at',

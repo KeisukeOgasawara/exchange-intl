@@ -22,7 +22,8 @@ exports['default'] = {
     'positions': 'Positions'
   },
   'book': {
-    'group': 'group orders'
+    'group': 'group orders',
+    'feed': 'trade feed'
   },
   'order': {
     'avg-price': 'Avg. Price',
@@ -66,6 +67,15 @@ exports['default'] = {
     'two-direction': 'Two Direction',
     'type': 'Type'
   },
+  'order-modal': {
+    'create-confirm': 'Order Confirmation',
+    'create-finish-submitted': 'Order Submitted',
+    'create-finish-filled': 'Order Filled',
+    'cancel-confirm': 'Order Cancellation',
+    'cancel-finish': 'Order Cancelled',
+    'edit-confirm': 'Order Update',
+    'edit-finish': 'Order Updated'
+  },
   'position': {
     'account': 'Account',
     'all': 'All',
@@ -99,7 +109,6 @@ exports['default'] = {
     'created-at': 'Created at',
     'id': 'ID',
     'order-id': 'Order ID',
-    'pnl': 'P&L',
     'price': 'Price',
     'product': 'Product',
     'quantity': 'Quantity',

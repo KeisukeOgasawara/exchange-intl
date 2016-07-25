@@ -40,7 +40,7 @@ exports['default'] = {
     'edit-quantity': 'Edit qty.',
     'est-price': 'Est. Cost',
     'fiat': 'Fiat',
-    'percentage': 'Percentage',
+    'percentage': 'Percent',
     'fee': 'Fee',
     'filled': 'Filled',
     'filled-qty': 'Filled Qty.',

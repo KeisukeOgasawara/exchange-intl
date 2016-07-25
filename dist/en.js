@@ -69,7 +69,8 @@ exports['default'] = {
     'stop': 'Stop',
     'target': 'Target',
     'two-direction': 'Two Direction',
-    'type': 'Type'
+    'type': 'Type',
+    'trailing_stop': 'Trailing St.'
   },
   'order-modal': {
     'create-confirm': 'Order Confirmation',

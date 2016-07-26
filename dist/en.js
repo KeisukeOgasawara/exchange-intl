@@ -25,6 +25,9 @@ exports['default'] = {
     'group': 'group orders',
     'feed': 'trade feed'
   },
+  'blotter': {
+    'switch-layout': 'Switch Layout'
+  },
   'order': {
     'avg-price': 'Avg. Price',
     'buy': 'Buy',
@@ -180,6 +183,10 @@ exports['default'] = {
     'order-quantity-bigger-than-min': 'Order quantity must bigger than 0.01',
     'order-quantity-smaller-than-max': 'Order quantity must smaller than 100',
     'other': 'Internal error'
+  },
+  languages: {
+    'en': 'English',
+    'ja': '日本語'
   }
 };
 module.exports = exports['default'];

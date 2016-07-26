@@ -132,7 +132,8 @@ exports['default'] = {
   'menu': {
     'accounts': 'Accounts',
     'dashboard': 'Dashboard',
-    'setting': 'Setting'
+    'setting': 'Setting',
+    'language': 'Language'
   },
   'product': {
     'high': 'High',

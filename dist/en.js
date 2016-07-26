@@ -190,7 +190,7 @@ exports['default'] = {
     'order-quantity-smaller-than-max': 'Order quantity must smaller than 100',
     'other': 'Internal error'
   },
-  languages: {
+  language: {
     'en': 'English',
     'ja': '日本語'
   }

@@ -142,10 +142,16 @@ exports['default'] = {
   },
   'account': {
     'balance': 'Balance',
+    'balance-available': 'Available',
     'balance-base': 'Crypto Balance',
+    'balance-locked': 'Locked',
     'balance-quote': 'Fiat Balance',
     'balance-total': 'Total Balance',
     'equity': 'Equity',
+    'interest-earned': 'Interest Earned',
+    'limit-orders': 'Limit Orders',
+    'loan-offers': 'Loan Offers',
+    'loaned-out': 'Loaned Out',
     'margin-available': 'Margin Available',
     'margin-coverage': 'Margin Coverage',
     'margin-used': 'Margin Used',
@@ -193,15 +199,6 @@ exports['default'] = {
   language: {
     'en': 'English',
     'ja': '日本語'
-  },
-  accounts: {
-    'balance': 'Balance',
-    'locked': 'Locked',
-    'available': 'Available',
-    'interest-earned': 'Interest Earned',
-    'loan-offers': 'Loan Offers',
-    'loaned-out': 'Loaned Out',
-    'limit-orders': 'Limit Orders'
   }
 };
 module.exports = exports['default'];

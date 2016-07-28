@@ -147,6 +147,8 @@ exports['default'] = {
     'balance-locked': 'Locked Balance',
     'balance-quote': 'Fiat Balance',
     'balance-total': 'Total Balance',
+    'balance-total-fiat': 'Total Fiat Balance',
+    'balance-total-crypto': 'Total Crypto Balance',
     'equity': 'Equity',
     'interest-earned': 'Interest Earned',
     'limit-orders': 'Limit Orders',

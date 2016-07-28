@@ -203,7 +203,7 @@ exports['default'] = {
     'ja': '日本語'
   },
   transaction: {
-    'title': 'Transactions',
+    'title-all': 'All Transactions',
     'email-report': 'Email Report',
     'id': 'Id',
     'created-at': 'Created At',
@@ -226,6 +226,9 @@ exports['default'] = {
     'credit_new_register': 'New Client Credit',
     'credit_referrer': 'Referral Credit',
     'direct_trade': 'Trade'
+  },
+  volume: {
+    'title': 'Transacted Volumes'
   }
 };
 module.exports = exports['default'];

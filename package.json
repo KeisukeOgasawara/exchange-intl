@@ -46,6 +46,7 @@
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp",
+    "watch": "gulp watch",
     "github": "npm run prepublish && git add -A && git commit -m 'build dist' && git push"
   },
   "license": "MIT",

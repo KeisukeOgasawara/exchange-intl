@@ -43,6 +43,14 @@ exIntl.use(Backend);
 $ npm run test
 ```
 
+## Watch
+
+Creates a watcher that will spy on files in `lib` folder. If `lib` has any change, system will run `babel` task to build `dist` folder, so `dist` is updated with new codes translated to standard which can be required by another module.
+
+```sh
+$ npm run watch
+```
+
 ## License
 
 MIT © [thien](mailto:thien@quoine.com)

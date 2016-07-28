@@ -198,13 +198,12 @@ exports['default'] = {
     'order-quantity-smaller-than-max': 'Order quantity must smaller than 100',
     'other': 'Internal error'
   },
-  language: {
+  'language': {
     'en': 'English',
     'ja': '日本語'
   },
-  transaction: {
+  'transaction': {
     'title-all': 'All Transactions',
-    'email-report': 'Email Report',
     'id': 'Id',
     'created-at': 'Created At',
     // type
@@ -227,8 +226,15 @@ exports['default'] = {
     'credit_referrer': 'Referral Credit',
     'direct_trade': 'Trade'
   },
-  volume: {
-    'title': 'Transacted Volumes'
+  'volume': {
+    'title': 'Transacted Volumes',
+    'email-report': 'Email Report',
+    'from': 'From',
+    'to': 'To'
+  },
+  'volume-modal': {
+    'report-sent': 'Report sent',
+    'report-check-email': 'Please check your email inbox for the report'
   }
 };
 module.exports = exports['default'];

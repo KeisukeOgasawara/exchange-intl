@@ -142,9 +142,9 @@ exports['default'] = {
   },
   'account': {
     'balance': 'Balance',
-    'balance-available': 'Available',
+    'balance-available': 'Available Balance',
     'balance-base': 'Crypto Balance',
-    'balance-locked': 'Locked',
+    'balance-locked': 'Locked Balance',
     'balance-quote': 'Fiat Balance',
     'balance-total': 'Total Balance',
     'equity': 'Equity',
@@ -152,9 +152,9 @@ exports['default'] = {
     'limit-orders': 'Limit Orders',
     'loan-offers': 'Loan Offers',
     'loaned-out': 'Loaned Out',
-    'margin-available': 'Margin Available',
+    'margin-available': 'Available Margin',
     'margin-coverage': 'Margin Coverage',
-    'margin-used': 'Margin Used',
+    'margin-used': 'Used Margin',
     'pnl': 'P&L'
   },
   'common': {

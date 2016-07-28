@@ -229,6 +229,7 @@ exports['default'] = {
   'volume': {
     'title': 'Transacted Volumes',
     'email-report': 'Email Report',
+    'email-report-choose-range-first': 'Please choose "From" and "To" date for the report',
     'from': 'From',
     'to': 'To'
   },

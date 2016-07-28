@@ -201,6 +201,31 @@ exports['default'] = {
   language: {
     'en': 'English',
     'ja': '日本語'
+  },
+  transaction: {
+    'title': 'Transactions',
+    'email-report': 'Email Report',
+    'id': 'Id',
+    'created-at': 'Created At',
+    // type
+    'loan_fee:': 'Interest Payment Fee',
+    'trade_fee:': 'Exchange Fee',
+    'debit:': 'Debit',
+    'credit:': 'Credit',
+    'loan:': 'Loan',
+    'repay:': 'Repay',
+    'loan_trade:': 'Repay',
+    'interest_transfer:': 'Interest Transfer',
+    'fund:': 'Fund',
+    'bought:': 'Bought',
+    'sold:': 'Sold',
+    'cross_ccy_trade:': 'Cross CCY Trade',
+    'withdraw:': 'Withdraw',
+    'hot_wallet_settlement:': 'Withdraw',
+    'system_transfer:': 'System Transfer',
+    'credit_new_register:': 'New Client Credit',
+    'credit_referrer:': 'Referral Credit',
+    'direct_trade:': 'Trade'
   }
 };
 module.exports = exports['default'];

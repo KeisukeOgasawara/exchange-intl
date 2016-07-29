@@ -181,6 +181,18 @@ exports['default'] = {
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange'
   },
+  'sign-up': {
+    'action': 'Sign up',
+    'title': 'Sign up',
+    'country': 'Country of Residence',
+    'nationality': 'Nationality',
+    'first-name': 'First name',
+    'last-name': 'Last name',
+    'email': 'Email',
+    'password': 'Password',
+    'affiliate-code': 'Promotion code (Optional)',
+    'term-condition': 'I agree with terms & conditions'
+  },
   'sign-out': {
     'action': 'Sign out',
     'title': 'Do you want to sign out?',

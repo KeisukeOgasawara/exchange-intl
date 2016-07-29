@@ -180,7 +180,15 @@ exports['default'] = {
     'resend-sms': 'Resend code via SMS',
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',
-    'go-to-sign-up': 'Dont have an account?'
+    'go-to-sign-up': 'Dont have an account?',
+    'go-to-forgot-password': 'Forgot password'
+  },
+  'forgot-password': {
+    'title': 'Forgot password',
+    'heading': 'Enter email to reset password',
+    'email': 'Email',
+    'resend': 'Resend',
+    'check-email': 'Weve just sent you an email with a reset link. Please check your password. Didnt receive any mail? Check your spam or'
   },
   'sign-up': {
     'action': 'Sign up',

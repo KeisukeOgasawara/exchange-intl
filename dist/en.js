@@ -259,6 +259,19 @@ exports['default'] = {
   'volume-modal': {
     'report-sent': 'Report sent',
     'report-check-email': 'Please check your email inbox for the report'
+  },
+  'fund': {
+    'title': 'Fund',
+    'instruction': 'To fund your account, please wire the funds to the account below. Note that your Account Name must match your registered name.'
+  },
+  'bank': {
+    'name': 'Bank Name',
+    'branch': 'Branch',
+    'bankAddress': 'Address',
+    'swift': 'SWIFT',
+    'accName': 'Account Name',
+    'accType': 'Account Type',
+    'accNumber': 'Account Number'
   }
 };
 module.exports = exports['default'];

@@ -179,11 +179,13 @@ exports['default'] = {
     'password': 'Password',
     'resend-sms': 'Resend code via SMS',
     'title': 'Sign in',
-    'use-all-features': 'Sign in to use all features of QUOINE Exchange'
+    'use-all-features': 'Sign in to use all features of QUOINE Exchange',
+    'go-to-sign-up': 'Dont have an account?'
   },
   'sign-up': {
     'action': 'Sign up',
     'title': 'Sign up',
+    'heading': 'Sign up to use all features of QUOINE Exchange',
     'country': 'Country of Residence',
     'nationality': 'Nationality',
     'first-name': 'First name',
@@ -191,7 +193,8 @@ exports['default'] = {
     'email': 'Email',
     'password': 'Password',
     'affiliate-code': 'Promotion code (Optional)',
-    'term-condition': 'I agree with terms & conditions'
+    'term-condition': 'I agree with terms & conditions',
+    'go-to-sign-in': 'Already have an account?'
   },
   'sign-out': {
     'action': 'Sign out',

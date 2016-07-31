@@ -268,12 +268,14 @@ exports['default'] = {
   },
   'withdrawal': {
     'title': 'Withdrawal',
+    'action': 'Withdraw',
     'fiat-instruction': 'To withdraw from your QUOINE {{- currency}} account, please choose a bank account and enter the withdrawal amount below.',
     'crypto-instruction': 'To withdraw from your QUOINE {{- currency}} account, please enter your {{- currency}} address and the withdrawal amount below.',
     'withdraw-another': 'To withdraw from another account, please select it from the top menu.',
     'bank-account': 'Bank Account',
     'token': 'Token',
-    'amount': 'Amount'
+    'amount': 'Amount',
+    'request': 'Request'
   },
   'bank': {
     'name': 'Bank Name',

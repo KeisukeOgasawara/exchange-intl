@@ -284,7 +284,9 @@ exports['default'] = {
     'accType': 'Account Type',
     'accNumber': 'Account Number',
     'status': 'Status',
-    'pending': 'Pending'
+    'pending': 'Pending',
+    'edit': 'Edit',
+    'new': 'New Account'
   }
 };
 module.exports = exports['default'];

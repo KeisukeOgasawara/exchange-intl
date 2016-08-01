@@ -180,8 +180,8 @@ exports['default'] = {
     'resend-sms': 'Resend code via SMS',
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',
-    'go-to-sign-up': 'Dont have an account?',
-    'go-to-forgot-password': 'Forgot password'
+    'sign-up': 'Sign up',
+    'forgot-password': 'Forgot password'
   },
   'forgot-password': {
     'title': 'Forgot password',
@@ -196,13 +196,12 @@ exports['default'] = {
     'heading': 'Enter new password',
     'password': 'Password',
     'password-confirm': 'Password confirm',
-    'not-match': 'Passwords don\'t match',
-    'at-least-8': 'Password need to be at least 8 characters'
+    'error-password-not-match': 'Passwords don\'t match',
+    'error-password-length': 'Password need to be at least 8 characters'
   },
   'sign-up': {
     'action': 'Sign up',
     'title': 'Sign up',
-    'heading': 'Sign up to use all features of QUOINE Exchange',
     'country': 'Country of Residence',
     'nationality': 'Nationality',
     'first-name': 'First name',
@@ -211,7 +210,13 @@ exports['default'] = {
     'password': 'Password',
     'affiliate-code': 'Promotion code (Optional)',
     'term-condition': 'I agree with terms & conditions',
-    'go-to-sign-in': 'Already have an account?'
+    'success-title': 'Sign up successfully',
+    'success-action': 'Go to sign in',
+    'success-message': 'Thank you for registering. Your registration is almost complete. An email has been sent with further instructions.',
+    'sign-in': 'Sign in',
+    'error-unique-email': 'Email is already taken.',
+    'error-password': 'Password need to be at least 8 characters. Password must contain at least one (1) upper case letter, one (1) lower case letter, and one (1) number.',
+    'error-term-condition': 'You need to accept terms and condition in order to proceed'
   },
   'sign-out': {
     'action': 'Sign out',

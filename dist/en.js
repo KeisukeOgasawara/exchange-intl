@@ -196,8 +196,8 @@ exports['default'] = {
     'heading': 'Enter new password',
     'password': 'Password',
     'password-confirm': 'Password confirm',
-    'error-password-not-match': 'Passwords don\'t match',
-    'error-password-length': 'Password need to be at least 8 characters'
+    'not-match': 'Passwords don\'t match',
+    'at-least-8': 'Password need to be at least 8 characters'
   },
   'sign-up': {
     'action': 'Sign up',
@@ -211,10 +211,7 @@ exports['default'] = {
     'password': 'Password',
     'affiliate-code': 'Promotion code (Optional)',
     'term-condition': 'I agree with terms & conditions',
-    'go-to-sign-in': 'Already have an account?',
-    'error-email': 'Email is already taken',
-    'error-password': 'Password need to be at least 8 characters',
-    'error-term-condition': 'You need to accept term and condition in order to proceed.',
+    'go-to-sign-in': 'Already have an account?'
   },
   'sign-out': {
     'action': 'Sign out',

@@ -303,6 +303,13 @@ exports['default'] = {
     'pending': 'Pending',
     'edit': 'Edit',
     'new': 'New Account'
+  },
+  'expedite': {
+    'title': 'Expedite',
+    'description': 'To EXPEDITE funding of your account, please enter the information below. Failure in submitting these details will result in delays in funding your account',
+    'bankName': 'Name of Bank',
+    'amount': 'Amount You\'re Wiring',
+    'fundDate': 'Wire Date'
   }
 };
 module.exports = exports['default'];

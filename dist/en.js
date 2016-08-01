@@ -185,10 +185,19 @@ exports['default'] = {
   },
   'forgot-password': {
     'title': 'Forgot password',
-    'heading': 'Enter email to reset password',
+    'heading': 'Reset your password',
     'email': 'Email',
     'resend': 'Resend',
-    'check-email': 'Weve just sent you an email with a reset link. Please check your password. Didnt receive any mail? Check your spam or'
+    'check-email': 'We\'ve just sent you an email with a reset link. Please check your password. Didn\'t receive any mail? Check your spam or',
+    'resent-successfully': 'Password reset email resent successfully.'
+  },
+  'reset-password': {
+    'title': 'Reset password',
+    'heading': 'Enter new password',
+    'password': 'Password',
+    'password-confirm': 'Password confirm',
+    'error-password-not-match': 'Passwords don\'t match',
+    'error-password-length': 'Password need to be at least 8 characters'
   },
   'sign-up': {
     'action': 'Sign up',
@@ -202,7 +211,10 @@ exports['default'] = {
     'password': 'Password',
     'affiliate-code': 'Promotion code (Optional)',
     'term-condition': 'I agree with terms & conditions',
-    'go-to-sign-in': 'Already have an account?'
+    'go-to-sign-in': 'Already have an account?',
+    'error-email': 'Email is already taken',
+    'error-password': 'Password need to be at least 8 characters',
+    'error-term-condition': 'You need to accept term and condition in order to proceed.',
   },
   'sign-out': {
     'action': 'Sign out',

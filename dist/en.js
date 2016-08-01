@@ -274,15 +274,20 @@ exports['default'] = {
   },
   'fund': {
     'title': 'Fund',
-    'fiat-instruction': 'To fund your {{currency}} account, please wire the funds to the account below. Note that your Account Name must match your registered name.',
-    'crypto-instruction': 'To fund your {{currency}} account, please send the funds to the address below.',
+    'fiat-instruction': 'To fund your QUOINE {{- currency}} account, please wire the funds to the account below. Note that your Account Name must match your registered name.',
+    'crypto-instruction': 'To fund your QUOINE {{- currency}} account, please send the funds to the address below.',
     'fund-another': 'To fund another account, please select it from the top menu.'
   },
   'withdrawal': {
     'title': 'Withdrawal',
-    'fiat-instruction': 'To withdraw from your QUOINE {{currency}} account, please choose a bank account and enter the withdrawal amount below.',
-    'crypto-instruction': 'To withdraw from your QUOINE {{currency}} account, please enter your {{currency}} address and the withdrawal amount below.',
-    'withdraw-another': 'To withdraw from another account, please select it from the top menu.'
+    'action': 'Submit Withdraw',
+    'fiat-instruction': 'To withdraw from your QUOINE {{- currency}} account, please choose a bank account and enter the withdrawal amount below.',
+    'crypto-instruction': 'To withdraw from your QUOINE {{- currency}} account, please enter your {{- currency}} address and the withdrawal amount below.',
+    'withdraw-another': 'To withdraw from another account, please select it from the top menu.',
+    'bank-account': 'Bank Account',
+    'token': 'Token',
+    'amount': 'Amount',
+    'request': 'Request'
   },
   'bank': {
     'name': 'Bank Name',
@@ -291,7 +296,11 @@ exports['default'] = {
     'swift': 'SWIFT',
     'accName': 'Account Name',
     'accType': 'Account Type',
-    'accNumber': 'Account Number'
+    'accNumber': 'Account Number',
+    'status': 'Status',
+    'pending': 'Pending',
+    'edit': 'Edit',
+    'new': 'New Account'
   }
 };
 module.exports = exports['default'];

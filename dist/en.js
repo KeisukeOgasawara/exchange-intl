@@ -138,7 +138,8 @@ exports['default'] = {
   'product': {
     'high': 'High',
     'low': 'Low',
-    'volume': '24h Volume'
+    'volume': '24h Volume',
+    'add': 'Add Product'
   },
   'account': {
     'balance': 'Balance',

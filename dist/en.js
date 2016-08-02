@@ -181,20 +181,28 @@ exports['default'] = {
     'resend-sms': 'Resend code via SMS',
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',
-    'sign-up': 'Dont have an account?',
+    'sign-up': 'Sign up',
     'forgot-password': 'Forgot password'
   },
   'forgot-password': {
     'title': 'Forgot password',
-    'heading': 'Enter email to reset password',
+    'heading': 'Reset your password',
     'email': 'Email',
     'resend': 'Resend',
-    'check-email': 'Weve just sent you an email with a reset link. Please check your password. Didnt receive any mail? Check your spam or'
+    'check-email': 'We\'ve just sent you an email with a reset link. Please check your password. Didn\'t receive any mail? Check your spam or',
+    'resent-successfully': 'Password reset email resent successfully.'
+  },
+  'reset-password': {
+    'title': 'Reset password',
+    'heading': 'Enter new password',
+    'password': 'Password',
+    'password-confirm': 'Password confirm',
+    'error-password-not-match': 'Passwords don\'t match',
+    'error-password-length': 'Password need to be at least 8 characters'
   },
   'sign-up': {
     'action': 'Sign up',
     'title': 'Sign up',
-    'heading': 'Sign up to use all features of QUOINE Exchange',
     'country': 'Country of Residence',
     'nationality': 'Nationality',
     'first-name': 'First name',
@@ -203,7 +211,13 @@ exports['default'] = {
     'password': 'Password',
     'affiliate-code': 'Promotion code (Optional)',
     'term-condition': 'I agree with terms & conditions',
-    'go-to-sign-in': 'Already have an account?'
+    'success-title': 'Sign up successfully',
+    'success-action': 'Go to sign in',
+    'success-message': 'Thank you for registering. Your registration is almost complete. An email has been sent with further instructions.',
+    'sign-in': 'Sign in',
+    'error-unique-email': 'Email is already taken.',
+    'error-password': 'Password need to be at least 8 characters. Password must contain at least one (1) upper case letter, one (1) lower case letter, and one (1) number.',
+    'error-term-condition': 'You need to accept terms and condition in order to proceed'
   },
   'sign-out': {
     'action': 'Sign out',
@@ -290,6 +304,15 @@ exports['default'] = {
     'pending': 'Pending',
     'edit': 'Edit',
     'new': 'New Account'
+  },
+  'expedite': {
+    'title': 'Expedite',
+    'description': 'To EXPEDITE funding of your account, please enter the information below. Failure in submitting these details will result in delays in funding your account',
+    'bankName': 'Name of Bank',
+    'amount': 'Amount You\'re Wiring',
+    'fundDate': 'Wire Date',
+    'success-title': 'Expedite successfully',
+    'success-message': 'Thank You! Your account will be credited as soon as our bank receives the funds. Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account. Please wire the funds to the bank below:'
   }
 };
 module.exports = exports['default'];

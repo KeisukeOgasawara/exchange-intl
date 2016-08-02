@@ -170,7 +170,11 @@ exports['default'] = {
     'load-more': 'Load',
     'margin': 'Margin',
     'spot': 'Spot',
-    'submit': 'Submit'
+    'submit': 'Submit',
+    'view': 'View',
+    'edit': 'Edit',
+    'delete': 'Delete',
+    'update': 'Update'
   },
   'confirmation': {
     'skip': 'Skip this confirmation in the future. (You can change this in Setting page)'
@@ -301,13 +305,25 @@ exports['default'] = {
     'branch': 'Branch',
     'bankAddress': 'Address',
     'swift': 'SWIFT',
+    'swift-check': 'SWIFT check',
+    'bank-statement': 'Bank statement',
+    'reason': 'Reason',
     'accName': 'Account Name',
     'accType': 'Account Type',
     'accNumber': 'Account Number',
     'status': 'Status',
     'pending': 'Pending',
     'edit': 'Edit',
-    'new': 'New Account'
+    'new': 'New Account',
+    'delete-comfirm-title': 'Confirmation',
+    'delete-comfirm-message': 'Do you want to delete this bank account?',
+    'delete-success-message': 'Delete bank account successfully.',
+    'create-title': 'Create new bank information',
+    'create-heading': 'Create new bank account',
+    'create-success-message': 'Create new bank account successfully.',
+    'update-title': 'Update bank account',
+    'update-heading': 'Update bank account',
+    'update-success-message': 'Update bank account successfully.'
   },
   'expedite': {
     'title': 'Expedite',

@@ -309,7 +309,9 @@ exports['default'] = {
     'description': 'To EXPEDITE funding of your account, please enter the information below. Failure in submitting these details will result in delays in funding your account',
     'bankName': 'Name of Bank',
     'amount': 'Amount You\'re Wiring',
-    'fundDate': 'Wire Date'
+    'fundDate': 'Wire Date',
+    'success-title': 'Expedite successfully',
+    'success-message': 'Thank You! Your account will be credited as soon as our bank receives the funds. Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account. Please wire the funds to the bank below:'
   }
 };
 module.exports = exports['default'];

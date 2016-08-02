@@ -138,7 +138,8 @@ exports['default'] = {
   'product': {
     'high': 'High',
     'low': 'Low',
-    'volume': '24h Volume'
+    'volume': '24h Volume',
+    'add': 'Add Product'
   },
   'account': {
     'balance': 'Balance',
@@ -180,8 +181,8 @@ exports['default'] = {
     'resend-sms': 'Resend code via SMS',
     'title': 'Sign in',
     'use-all-features': 'Sign in to use all features of QUOINE Exchange',
-    'go-to-sign-up': 'Dont have an account?',
-    'go-to-forgot-password': 'Forgot password'
+    'sign-up': 'Dont have an account?',
+    'forgot-password': 'Forgot password'
   },
   'forgot-password': {
     'title': 'Forgot password',

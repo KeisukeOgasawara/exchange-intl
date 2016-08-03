@@ -145,6 +145,7 @@ exports['default'] = {
     'add': 'Add Product'
   },
   'account': {
+    'add': 'Add Account',
     'balance': 'Balance',
     'balance-available': 'Available Balance',
     'balance-base': 'Crypto Balance',

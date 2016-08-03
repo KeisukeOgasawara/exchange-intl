@@ -335,6 +335,11 @@ exports['default'] = {
     'fundDate': 'Wire Date',
     'success-title': 'Expedite successfully',
     'success-message': 'Thank You! Your account will be credited as soon as our bank receives the funds. Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account.'
+  },
+  'setting': {
+    'title': 'Setting',
+    'content': 'Do you really want to go to setting page ?',
+    'action': 'Ok'
   }
 };
 module.exports = exports['default'];

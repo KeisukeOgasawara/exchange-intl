@@ -118,6 +118,11 @@ exports['default'] = {
     'order-price-stop-smaller-than-market-bid': '逆指値の売り注文の場合、現在のレートより低いレートを入力してください',
     'order-quantity-bigger-than-min': '0.01以上の数量を入力してください',
     'order-quantity-smaller-than-max': '最大発注量は100BTCです'
+  },
+  'setting': {
+    'title': 'Setting',
+    'content': 'Do you really want to go to setting page ?',
+    'action': 'Ok'
   }
 };
 module.exports = exports['default'];

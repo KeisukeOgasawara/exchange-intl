@@ -335,6 +335,11 @@ exports['default'] = {
     'fundDate': 'Wire Date',
     'success-title': 'Expedite successfully',
     'success-message': 'Thank You! Your account will be credited as soon as our bank receives the funds. Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account.'
+  },
+  'fallback': {
+    'title': 'We need to redirect you to the classic app',
+    'description': 'We are sorry that this feature is not available in this new version yet. We are working on this right now. In the mean while, would you like to switch to our classic web app to use this feature?',
+    'action': 'Go to classic'
   }
 };
 module.exports = exports['default'];

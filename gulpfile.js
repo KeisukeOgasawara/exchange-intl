@@ -10,6 +10,7 @@ var coveralls = require('gulp-coveralls');
 var babel = require('gulp-babel');
 var del = require('del');
 var isparta = require('isparta');
+var runSequence = require('run-sequence');
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded
@@ -24,7 +25,7 @@ gulp.task('static', function () {
 });
 
 gulp.task('nsp', function (cb) {
-  nsp({package: path.resolve('package.json')}, cb);
+  return nsp({package: path.resolve('package.json')}, cb);
 });
 
 gulp.task('pre-test', function () {
@@ -75,5 +76,7 @@ gulp.task('clean', function () {
   return del('dist');
 });
 
-gulp.task('prepublish', ['nsp', 'clean', 'babel']);
+gulp.task('prepublish', function(){
+  runSequence('nsp', 'clean', 'babel');
+});
 gulp.task('default', ['static', 'test', 'coveralls']);

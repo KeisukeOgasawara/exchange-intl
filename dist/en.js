@@ -337,6 +337,11 @@ exports['default'] = {
     'success-title': 'Expedite successfully',
     'success-message': 'Thank You! Your account will be credited as soon as our bank receives the funds. Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account.'
   },
+  'setting': {
+    'title': 'Setting',
+    'content': 'Do you really want to go to setting page ?',
+    'action': 'Ok'
+  },
   'fallback': {
     'title': 'Go to our classic app',
     'description': 'We are working to make this feature available in this new app. Meanwhile, would you like to switch to our classic web app to use this feature?',

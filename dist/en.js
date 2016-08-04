@@ -136,7 +136,8 @@ exports['default'] = {
     'accounts': 'Accounts',
     'dashboard': 'Dashboard',
     'setting': 'Setting',
-    'language': 'Language'
+    'language': 'Language',
+    'classic': 'Back to Classic'
   },
   'product': {
     'high': 'High',
@@ -205,9 +206,9 @@ exports['default'] = {
     'title': 'Reset password',
     'heading': 'Enter new password',
     'password': 'Password',
-    'password-confirm': 'Password confirm',
-    'error-password-not-match': 'Passwords don\'t match',
-    'error-password-length': 'Password need to be at least 8 characters'
+    'success-title': 'Reset password successfully',
+    'success-action': 'Go to sign in',
+    'success-message': 'Reset password successfully'
   },
   'sign-up': {
     'action': 'Sign up',
@@ -340,6 +341,11 @@ exports['default'] = {
     'title': 'Setting',
     'content': 'Do you really want to go to setting page ?',
     'action': 'Ok'
+  },
+  'fallback': {
+    'title': 'Go to our classic app',
+    'description': 'We are working to make this feature available in this new app. Meanwhile, would you like to switch to our classic web app to use this feature?',
+    'action': 'Go to classic'
   }
 };
 module.exports = exports['default'];

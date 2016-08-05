@@ -302,7 +302,8 @@ exports['default'] = {
     'amount': 'Amount',
     'request': 'Request',
     'pending': 'Pending',
-    'pending-title': 'Pending withdrawals'
+    'pending-title': 'Pending withdrawals',
+    'no-pending-title': 'No Pending withdrawals'
   },
   'bank': {
     'name': 'Bank Name',
@@ -322,7 +323,7 @@ exports['default'] = {
     'delete-comfirm-title': 'Confirmation',
     'delete-comfirm-message': 'Do you want to delete this bank account?',
     'delete-success-message': 'Delete bank account successfully.',
-    'create-title': 'Create new bank information',
+    'create-title': 'Create new',
     'create-heading': 'Create new bank account',
     'create-success-message': 'Create new bank account successfully.',
     'update-title': 'Update bank account',

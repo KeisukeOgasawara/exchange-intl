@@ -361,10 +361,24 @@ exports['default'] = {
     'old-password': 'Old assword',
     'new-password': 'Password',
     'new-password-confirm': 'Password confirmation',
+    'verify-phone': 'Verify phone',
+    'disable-two-step': 'Disable two step authentication',
     'modal-update-label': 'Phone',
     'modal-verify-label': 'Enter your verification token',
+    'modal-verify-description-p1': 'Verification token has been sent via SMS. Or you can install ',
+    'modal-verify-description-authy': 'Authy',
+    'modal-verify-description-p2': ' and get token there instead (recommended)',
     'modal-verify-resend': 'Resend Token via SMS',
+    'modal-disable-description': 'Disable two step authentication ....',
+    'modal-disable-label': 'Enter your verification token',
+    'modal-disable-success-message': 'Disable two step authentication successfully',
     'token-is-invalid': 'Token is invalid'
+  },
+  'authen-document': {
+    'title': 'Upload documents that prove your identity',
+    'id-document': 'Id document',
+    'proof-address': 'Proof address',
+    'bank-statement': 'Bank statement'
   }
 };
 module.exports = exports['default'];

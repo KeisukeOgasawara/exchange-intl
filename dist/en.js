@@ -300,7 +300,9 @@ exports['default'] = {
     'bank-account': 'Bank Account',
     'token': 'Token',
     'amount': 'Amount',
-    'request': 'Request'
+    'request': 'Request',
+    'pending': 'Pending',
+    'pending-title': 'Pending withdrawals'
   },
   'bank': {
     'name': 'Bank Name',

@@ -176,7 +176,8 @@ exports['default'] = {
     'view': 'View',
     'edit': 'Edit',
     'delete': 'Delete',
-    'update': 'Update'
+    'update': 'Update',
+    'add': 'Add'
   },
   'confirmation': {
     'skip': 'Skip this confirmation in the future. (You can change this in Setting page)'
@@ -344,6 +345,26 @@ exports['default'] = {
     'title': 'Not available at Dashboard 2.0',
     'description': 'This feature is coming soon. Please, use the Classic Dashboard to access this feature. Would you like to switch to Classic Dashboard right now?',
     'action': 'Switch'
+  },
+  'settings': {
+    'userProfile': 'User Profile',
+    'accountVerification': 'Account Verification',
+    'authTokens': 'Authentication Tokens',
+    'first-name': 'First name',
+    'last-name': 'Last name',
+    'email': 'Email',
+    'phone': 'Phone',
+    'create-at': 'Joined Since',
+    'status': 'Status',
+    'receive-report': 'Receive report',
+    'change-password': 'Change password',
+    'old-password': 'Old assword',
+    'new-password': 'Password',
+    'new-password-confirm': 'Password confirmation',
+    'modal-update-label': 'Phone',
+    'modal-verify-label': 'Enter your verification token',
+    'modal-verify-resend': 'Resend Token via SMS',
+    'token-is-invalid': 'Token is invalid'
   }
 };
 module.exports = exports['default'];

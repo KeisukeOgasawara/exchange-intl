@@ -235,6 +235,12 @@ exports['default'] = {
     'title': 'Do you want to sign out?',
     'from-all-devices': 'Do you want to sign out from all devices and browsers?'
   },
+  'whats-new': {
+    'action': 'What\'s New',
+    'heading': 'Information about new update',
+    'body': 'Body body body body',
+    'version': '2'
+  },
   'error': {
     'order-direction-long-need-empty': 'You must have no long trades to place sell order',
     'order-direction-short-need-empty': 'You must have no short trade to place buy order',
@@ -357,12 +363,9 @@ exports['default'] = {
     'create-at': 'Joined Since',
     'status': 'Status',
     'receive-report': 'Receive report',
-    'change-password': 'Change password',
-    'old-password': 'Old assword',
-    'new-password': 'Password',
-    'new-password-confirm': 'Password confirmation',
     'verify-phone': 'Verify phone',
     'disable-two-step': 'Disable two step authentication',
+    'disable-two-step-confirm': 'Are you sure you want to disable 2-step verification?',
     'modal-update-label': 'Phone',
     'modal-verify-label': 'Enter your verification token',
     'modal-verify-description-p1': 'Verification token has been sent via SMS. Or you can install ',
@@ -374,11 +377,33 @@ exports['default'] = {
     'modal-disable-success-message': 'Disable two step authentication successfully',
     'token-is-invalid': 'Token is invalid'
   },
+  'change-password': {
+    'title': 'Change Password',
+    'action': 'Change Password',
+    'old-password': 'Old assword',
+    'new-password': 'Password',
+    'new-password-confirm': 'Password confirmation',
+    'success-title': 'Change password successfully',
+    'success-message': 'Your password has been successfully updated'
+  },
   'authen-document': {
     'title': 'Upload documents that prove your identity',
     'id-document': 'Id document',
     'proof-address': 'Proof address',
     'bank-statement': 'Bank statement'
+  },
+  'api-tokens': {
+    'button-create': 'Create new api tokens',
+    'title-create': 'Create new api tokens',
+    'id': 'ID',
+    'secret': 'Secret',
+    'orders': 'Orders',
+    'trades': 'Trades',
+    'tradingAccounts': 'Trading Accounts',
+    'accounts': 'Accounts',
+    'executions': 'Executions',
+    'read': 'Read',
+    'write': 'Write'
   }
 };
 module.exports = exports['default'];

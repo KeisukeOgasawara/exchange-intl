@@ -137,7 +137,8 @@ exports['default'] = {
     'dashboard': 'Dashboard',
     'setting': 'Setting',
     'language': 'Language',
-    'classic': 'Back to Classic'
+    'classic': 'Back to Classic',
+    'whats-new': 'What\'s New'
   },
   'product': {
     'high': 'High',
@@ -236,10 +237,8 @@ exports['default'] = {
     'from-all-devices': 'Do you want to sign out from all devices and browsers?'
   },
   'whats-new': {
-    'action': 'What\'s New',
-    'heading': 'Information about new update',
-    'body': 'Body body body body',
-    'version': '2'
+    'date': '1470823213',
+    'body': 'Body body body body'
   },
   'error': {
     'order-direction-long-need-empty': 'You must have no long trades to place sell order',

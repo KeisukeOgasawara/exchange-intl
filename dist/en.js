@@ -95,6 +95,7 @@ exports['default'] = {
     'close': 'close',
     'closed': 'Closed',
     'open': 'Open',
+    'status': 'Status',
     'close-all': 'Close All',
     'close-long': 'Close Longs',
     'close-short': 'Close Shorts',

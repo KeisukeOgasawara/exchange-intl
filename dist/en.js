@@ -10,6 +10,10 @@ exports['default'] = {
     'basic': 'english',
     'interpolation': 'quoine-{{name}}'
   },
+  'whats-new': {
+    'date': '1470823213',
+    'body': 'Body body body body'
+  },
   'trade-overview': {
     'baseOpenPrice': 'Base Price',
     'pnl': 'P&L',
@@ -29,6 +33,7 @@ exports['default'] = {
     'switch-layout': 'Switch Layout'
   },
   'order': {
+    'all': 'All',
     'avg-price': 'Avg. Price',
     'buy': 'Buy',
     'buys': 'Buys',
@@ -235,10 +240,6 @@ exports['default'] = {
     'action': 'Sign out',
     'title': 'Do you want to sign out?',
     'from-all-devices': 'Do you want to sign out from all devices and browsers?'
-  },
-  'whats-new': {
-    'date': '1470823213',
-    'body': 'Body body body body'
   },
   'error': {
     'order-direction-long-need-empty': 'You must have no long trades to place sell order',

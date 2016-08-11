@@ -258,7 +258,11 @@ exports['default'] = {
     'order-price-stop-smaller-than-market-bid': 'Order sell stop price must be smaller than market bid',
     'order-quantity-bigger-than-min': 'Order quantity must be bigger than 0.01',
     'order-quantity-smaller-than-max': 'Order quantity must be smaller than 100',
-    'other': 'Internal error'
+    'other': 'Internal error',
+    'position-stop-loss-lesser-than-market-bid': 'Position stop loss must be lesser than market bid',
+    'position-stop-loss-greater-than-market-ask': 'Position stop loss must be greater than market ask',
+    'position-take-profit-greater-than-market-bid': 'Position take profit must be greater than market bid',
+    'position-take-profit-lesser-than-market-ask': 'Position take profit must be lesser than market ask'
   },
   'language': {
     'en': 'English',

@@ -93,6 +93,8 @@ exports['default'] = {
     'account': 'Account',
     'all': 'All',
     'close': 'close',
+    'closed': 'closed',
+    'open': 'open',
     'close-all': 'Close All',
     'close-long': 'Close Longs',
     'close-short': 'Close Shorts',

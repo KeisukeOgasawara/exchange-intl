@@ -138,7 +138,10 @@ exports['default'] = {
     'product': 'Product',
     'quantity': 'Quantity',
     'side': 'Side',
-    'target': 'Target'
+    'target': 'Target',
+    'taker_side': 'Side',
+    'buy': 'Buy',
+    'sell': 'Sell'
   },
   'menu': {
     'accounts': 'Accounts',

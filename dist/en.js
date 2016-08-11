@@ -139,7 +139,7 @@ exports['default'] = {
     'quantity': 'Quantity',
     'side': 'Side',
     'target': 'Target',
-    'taker_side': 'Side',
+    'takerSide': 'Side',
     'buy': 'Buy',
     'sell': 'Sell'
   },

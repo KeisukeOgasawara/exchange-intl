@@ -78,7 +78,8 @@ exports['default'] = {
     'target': 'Target',
     'two-direction': 'Two Direction',
     'type': 'Type',
-    'trailing_stop': 'Trailing St.'
+    'trailing_stop': 'Trailing St.',
+    'no-order-title': 'there is no order'
   },
   'order-modal': {
     'create-confirm': 'Order Confirmation',
@@ -122,7 +123,8 @@ exports['default'] = {
     'stop-loss': 'Stop Loss',
     'take-profit': 'Take Profit',
     'to-close-qty': 'Qty. To Close',
-    'total-interest': 'Total Int.'
+    'total-interest': 'Total Int.',
+    'no-position-title': 'there is no position'
   },
   'position-modal': {
     'close-confirm': 'Position Close Confirmation',
@@ -365,7 +367,6 @@ exports['default'] = {
   },
   'settings': {
     'userProfile': 'User Profile',
-    'accountVerification': 'Account Verification',
     'authTokens': 'Authentication Tokens',
     'first-name': 'First name',
     'last-name': 'Last name',
@@ -374,6 +375,8 @@ exports['default'] = {
     'create-at': 'Joined Since',
     'status': 'Status',
     'receive-report': 'Receive report',
+    'enable': 'Enable',
+    'disable': 'Disable',
     'verify-phone': 'Verify phone',
     'disable-two-step': 'Disable two step authentication',
     'disable-two-step-confirm': 'Are you sure you want to disable 2-step verification?',

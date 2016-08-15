@@ -72,6 +72,11 @@ gulp.task('babel', ['clean'], function () {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('copy', ['clean'], function () {
+  return gulp.src('lib/**/*.js')
+    .pipe(gulp.dest('dist'));
+});
+
 gulp.task('clean', function () {
   return del('dist');
 });
@@ -79,4 +84,19 @@ gulp.task('clean', function () {
 gulp.task('prepublish', function(){
   runSequence('nsp', 'clean', 'babel');
 });
+
 gulp.task('default', ['static', 'test', 'coveralls']);
+
+gulp.task('merge', ['prepublish'], function () {
+  var en = require('./dist/en');
+  var ja = require('./dist/ja');
+  const merge = Object.assign({}, en, ja);
+  const fs = require('fs');
+  fs.writeFile("ja.json", JSON.stringify(merge, null, 2), function(err) {
+    if(err) {
+      console.log(err);
+    } else {
+      console.log("JSON saved to ja.json");
+    }
+  });
+});

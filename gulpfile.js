@@ -72,11 +72,6 @@ gulp.task('babel', ['clean'], function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('copy', ['clean'], function () {
-  return gulp.src('lib/**/*.js')
-    .pipe(gulp.dest('dist'));
-});
-
 gulp.task('clean', function () {
   return del('dist');
 });

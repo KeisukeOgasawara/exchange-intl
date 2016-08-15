@@ -61,6 +61,6 @@ describe('exchange-intl', function () {
         });
       }
     });
-    console.log(actual);
+    assert.equal(Object.keys(actual).length, 0);
   });
 });

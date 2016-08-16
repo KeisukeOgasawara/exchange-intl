@@ -410,8 +410,7 @@ exports['default'] = {
     'id-document': 'ID document',
     'proof-address': 'Proof address',
     'bank-statement': 'Bank statement',
-    'require-document': 'We require ID and other documents before you can do a fiat deposit/withdrawal.',
-    'please-provide-document': 'Please provide them below',
+    'require-document': 'We require ID and other documents before you can do a fiat deposit/withdrawal.\nPlease provide them below',
     'modal-documents-success-title': 'Documents Uploaded',
     'modal-documents-success-message': 'Your documents have been uploaded. Our staff will be reviewing and approving your account shortly.',
     'api-tokens-create': 'Create new api tokens',
@@ -432,11 +431,10 @@ exports['default'] = {
     'modal-delete-token-body': 'All devices and apps which use this token will be unauthorized immediately.',
     'modal-delete-token-success-title': 'Token Deleted',
     'modal-delete-token-success-message': 'Delete token successfully',
-    'reset-all-skipped-confirmation-title': 'Reset all skipped confimation',
-    'reset-all-skipped-confirmation-action': 'Reset',
-    'reset-all-skipped-confirmation-can-reset': 'Click RESET to reset all skipped confirmation',
-    'reset-all-skipped-confirmation-can-not-reset': 'You don\'t have any skipped confirmation',
-    'reset-all-skipped-confirmation-reset-success': 'Reset all skipped confimation successfully'
+    'confirmation': 'Confirmation',
+    'skipped-confirmation': 'skipped confirmation',
+    'skipped-confirmations': 'skipped confirmations',
+    'reset-all': 'Reset all'
   },
   'change-password': {
     'title': 'Change Password',

@@ -11,6 +11,7 @@ var babel = require('gulp-babel');
 var del = require('del');
 var isparta = require('isparta');
 var runSequence = require('run-sequence');
+var deepAssign = require('deep-assign');
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded
@@ -79,4 +80,19 @@ gulp.task('clean', function () {
 gulp.task('prepublish', function(){
   runSequence('nsp', 'clean', 'babel');
 });
+
 gulp.task('default', ['static', 'test', 'coveralls']);
+
+gulp.task('merge', ['prepublish'], function () {
+  var en = require('./dist/en');
+  var ja = require('./dist/ja');
+  const merge = deepAssign({}, en, ja);
+  const fs = require('fs');
+  fs.writeFile("ja.json", JSON.stringify(merge, null, 2), function(err) {
+    if(err) {
+      console.log(err);
+    } else {
+      console.log("JSON saved to ja.json");
+    }
+  });
+});

@@ -1,3 +1,6 @@
+/* eslint linebreak-style: ["error", "unix"] */
+/* eslint linebreak-style: ["error", "windows"] */
+
 import assert from 'assert';
 import exchangeIntl from '../lib';
 

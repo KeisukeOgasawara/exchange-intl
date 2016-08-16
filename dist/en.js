@@ -1,5 +1,8 @@
 /* eslint-disable quote-props */
 /* eslint comma-dangle: ["error", "always"] */
+/* eslint linebreak-style: ["error", "unix"] */
+/* eslint linebreak-style: ["error", "windows"] */
+
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -192,7 +195,9 @@ exports['default'] = {
     'edit': 'Edit',
     'delete': 'Delete',
     'update': 'Update',
-    'add': 'Add'
+    'add': 'Add',
+    'choose-file': 'Choose File',
+    'change-file': 'Change File'
   },
   'confirmation': {
     'skip': 'Skip this confirmation in the future. (You can change this in Setting page)'
@@ -366,19 +371,25 @@ exports['default'] = {
     'action': 'Switch'
   },
   'settings': {
-    'userProfile': 'User Profile',
-    'authTokens': 'Authentication Tokens',
+    'userProfile': 'User',
+    'apiTokens': 'API Tokens',
     'first-name': 'First name',
     'last-name': 'Last name',
     'email': 'Email',
+    'password': 'Password',
     'phone': 'Phone',
     'create-at': 'Joined Since',
     'status': 'Status',
     'receive-report': 'Receive report',
-    'enable': 'Enable',
-    'disable': 'Disable',
+    'enabled': 'Enabled',
+    'disabled': 'Disabled',
+    'enable-report': 'Enable Report',
+    'disable-report': 'Disable Report',
+    'two-factor-authen': '2-Factor Authentication',
+    'add-phone': 'Add phone',
+    'change-phone': 'Change phone',
     'verify-phone': 'Verify phone',
-    'disable-two-step': 'Disable two step authentication',
+    'disable-two-step': 'Disable 2-Factor Authentication',
     'disable-two-step-confirm': 'Are you sure you want to disable 2-step verification?',
     'modal-update-label': 'Phone',
     'modal-verify-label': 'Enter your verification token',
@@ -389,7 +400,27 @@ exports['default'] = {
     'modal-disable-description': 'Disable two step authentication ....',
     'modal-disable-label': 'Enter your verification token',
     'modal-disable-success-message': 'Disable two step authentication successfully',
-    'token-is-invalid': 'Token is invalid'
+    'token-is-invalid': 'Token is invalid',
+    'id-document': 'Id document',
+    'proof-address': 'Proof address',
+    'bank-statement': 'Bank statement',
+    'submit-new-documents': 'Submit new documents',
+    'api-tokens-create': 'Create new api tokens',
+    'api-tokens-id': 'ID',
+    'api-tokens-secret': 'Secret',
+    'orders': 'Orders',
+    'trades': 'Positions (Trades)',
+    'tradingAccounts': 'Trading Accounts',
+    'accounts': 'Accounts',
+    'executions': 'Executions',
+    'read': 'Read',
+    'write': 'Write',
+    'copy-secret': 'Copy Secret',
+    'view-detail': 'View detail',
+    'hide-detail': 'Hide detail',
+    'delete-token': 'Delete token',
+    'modal-delete-token-title': 'Are you sure you want to delete this token?',
+    'modal-delete-token-success-message': 'Delete token successfully'
   },
   'change-password': {
     'title': 'Change Password',
@@ -399,25 +430,6 @@ exports['default'] = {
     'new-password-confirm': 'Password confirmation',
     'success-title': 'Change password successfully',
     'success-message': 'Your password has been successfully updated'
-  },
-  'authen-document': {
-    'title': 'Upload documents that prove your identity',
-    'id-document': 'Id document',
-    'proof-address': 'Proof address',
-    'bank-statement': 'Bank statement'
-  },
-  'api-tokens': {
-    'button-create': 'Create new api tokens',
-    'title-create': 'Create new api tokens',
-    'id': 'ID',
-    'secret': 'Secret',
-    'orders': 'Orders',
-    'trades': 'Trades',
-    'tradingAccounts': 'Trading Accounts',
-    'accounts': 'Accounts',
-    'executions': 'Executions',
-    'read': 'Read',
-    'write': 'Write'
   }
 };
 module.exports = exports['default'];

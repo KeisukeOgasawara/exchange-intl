@@ -1,3 +1,6 @@
+/* eslint linebreak-style: ["error", "unix"] */
+/* eslint linebreak-style: ["error", "windows"] */
+
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {

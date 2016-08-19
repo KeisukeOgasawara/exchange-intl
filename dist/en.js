@@ -319,6 +319,7 @@ exports['default'] = {
     'title': 'Fund',
     'fiat-instruction': 'To fund your QUOINE {{- currency}} account, please wire the funds to the account below. Note that your Account Name must match your registered name.',
     'crypto-instruction': 'To fund your QUOINE {{- currency}} account, please send the funds to the address below.',
+    'not-support-funding': 'Were are not support funding QUOINE {{- currency}} account at the moment. Please contact us if you have any question.',
     'fund-another': 'To fund another account, please select it from the top menu.'
   },
   'withdrawal': {

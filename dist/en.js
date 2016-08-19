@@ -34,6 +34,10 @@ exports['default'] = {
     'group': 'group orders',
     'feed': 'trade feed'
   },
+  'chart': {
+    'add-sub-chart': 'Add sub chart',
+    'remove-sub-chart': 'Remove sub chart'
+  },
   'blotter': {
     'switch-layout': 'Switch Layout'
   },

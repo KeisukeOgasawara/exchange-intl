@@ -342,7 +342,9 @@ exports["default"] = {
     "success-message": "Withdrawal successfully",
     "cancel-confirm-title": "Cancel Withdrawal Confirmation",
     "cancel-confirm-message": "Are you sure you want to cancel this withdrawal?",
-    "cancel-finish-message": "Cancel Withdrawal successfully"
+    "cancel-finish-message": "Cancel Withdrawal successfully",
+    "request-token-title": "Request authentication token",
+    "request-token-message": "Authentication code has been sent to your email address"
   },
   "asset-transfer": {
     "require-document-message": "We require ID and other documents before you can do a fiat deposit/withdrawal.<br/>Please upload your proof documents in <strong>Settings Page</strong>",

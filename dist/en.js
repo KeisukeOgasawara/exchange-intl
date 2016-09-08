@@ -273,7 +273,8 @@ exports["default"] = {
     "order-price-stop-bigger-than-market-ask": "Order buy stop price must be larger than market ask",
     "order-price-stop-smaller-than-market-bid": "Order sell stop price must be smaller than market bid",
     "order-quantity-bigger-than-min": "Order quantity must be bigger than 0.01",
-    "order-quantity-smaller-than-max": "Order quantity must be smaller than 100",
+    "order-quantity-smaller-than-100": "Order quantity must be smaller than 100 BTC",
+    "order-quantity-smaller-than-1000": "Order quantity must be smaller than 1000 ETH",
     "other": "Internal error",
     "position-stop-loss-smaller-than-market-bid": "Position stop loss must be smaller than market bid",
     "position-stop-loss-larger-than-market-ask": "Position stop loss must be larger than market ask",
@@ -281,7 +282,11 @@ exports["default"] = {
     "position-take-profit-smaller-than-market-ask": "Position take profit must be smaller than market ask",
     "token-is-invalid": "Token is invalid",
     "your-password-is-incorrect": "Your password is incorrect",
-    "password-update-failed": "Password update failed"
+    "password-update-failed": "Password update failed",
+    "internet-connection": "Internet connection error",
+    "fund-date-can't-be-blank": "Fund date can't be blank",
+    "verification-failed": "Verification failed",
+    "bank-statement-can't-be-blank": "Bank statement can't be blank"
   },
   "language": {
     "en": "English",
@@ -340,7 +345,18 @@ exports["default"] = {
     "request": "Request",
     "pending": "Pending",
     "pending-title": "Pending withdrawals",
-    "no-pending-title": "No Pending withdrawals"
+    "no-pending-title": "No Pending withdrawals",
+    "success-message": "Withdrawal successfully",
+    "cancel-confirm-title": "Cancel Withdrawal Confirmation",
+    "cancel-confirm-message": "Are you sure you want to cancel this withdrawal?",
+    "cancel-finish-message": "Cancel Withdrawal successfully",
+    "request-token-title": "Request authentication token",
+    "request-token-message": "Authentication code has been sent to your email address"
+  },
+  "asset-transfer": {
+    "pending-message": "We require ID and other documents before you can do a fiat deposit/withdrawal.<br/>Please upload your proof documents in <strong>Settings Page</strong>",
+    "declined-message": "Your proof documents have been declined.<br/>Our staff has reviewed your proof documents. Unfortunately, we were unable to approve them.<br/>Please correct issues and upload your proof documents again in <strong>Settings Page</strong>",
+    "goto-settings-page": "Go to Settings Page"
   },
   "bank": {
     "name": "Bank Name",
@@ -369,13 +385,13 @@ exports["default"] = {
   },
   "expedite": {
     "title": "Expedite",
-    "action": "Expedite",
+    "action": "Create funding request",
     "description": "To EXPEDITE funding of your account, please enter the information below. Failure in submitting these details will result in delays in funding your account",
     "bankName": "Name of Bank",
     "amount": "Amount You're Wiring",
     "fundDate": "Wire Date",
     "success-title": "Expedite successfully",
-    "success-message": "Thank You! Your account will be credited as soon as our bank receives the funds. Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account."
+    "success-message": "Thank You! Your account will be credited as soon as our bank receives the funds.<br/>Please ensure you type the unique ID in the payment details/comment section when you enter your money transfer to us, otherwise there may be a delay in updating the balance in your account."
   },
   "fallback": {
     "title": "Not available at Dashboard 2.0",
@@ -396,6 +412,7 @@ exports["default"] = {
     "status": "Account Verification",
     "pending": "Pending",
     "approved": "Approved",
+    "declined": "Declined",
     "receive-report": "Receive report",
     "enabled": "Enabled",
     "disabled": "Disabled",

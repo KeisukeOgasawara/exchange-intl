@@ -473,7 +473,8 @@ exports["default"] = {
   },
   "futures": {
     "title": "Futures",
-    "create-btc-account": "We will create a BTC account for you to trading futures"
+    "create-btc-account": "We will create a BTC account for you to trading futures",
+    "go-back": "Go Back"
   },
   "futures-order-calc": {
     "price": "Price",
